@@ -1,0 +1,36 @@
+.employee-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.employee-form h3 {
+    color: yellow;
+    text-align: left;
+}
+
+.employee-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.employee-form input[type="text"],
+.employee-form input[type="email"],
+.employee-form select,
+.employee-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.employee-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+}

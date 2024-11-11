@@ -1,0 +1,59 @@
+/* Dashboard.css */
+.dashboard {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .tab {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+  }
+  
+  .tab:hover {
+    background-color: #ddd;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info button {
+    margin-left: 10px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .header-section {
+    margin-bottom: 20px;
+  }
+  
+  .create-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background-color: #45a049;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
